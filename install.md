@@ -5,7 +5,12 @@ Instructions for setting an environment for the code in the book are below. Thes
 - Have been tested on MacOS 10.15 and Ubuntu 18.04.3 LTS. You may have to translate these instructions for WIndows specific vagaries
 - Only cover CPU version of TensorFlow. For latest GPU install instructions, please follow <https://www.tensorflow.org/install/gpu>
 
-Installation uses Anaconda distribution and `pip`. It is assumed that Anaconda is setup and ready to go on your machine.
+Installation uses Anaconda distribution and `pip`. It is assumed that Anaconda is setup and ready to go on your machine. Note that we use some new and some uncommon packages. These packages may not be available through conda. We will use `pip` in such cases.
+
+Notes:
+
+- On MacOS: conda 4.6.8, pip 20.1.1
+- On Ubuntu: conda 4.6.11, pip 20.0.2
 
 **Step 1**: Create a new conda environment with Python 3.7.5
 
