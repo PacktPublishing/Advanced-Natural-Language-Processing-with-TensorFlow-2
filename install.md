@@ -45,7 +45,7 @@ Rest of the installation instructions are about specific libraries used in speci
 
 ## Chapter 2 Installation Instructions
 
-Following libraries are needed for this chapter:
+`tfds` package needs to be installed:
 
 ```
 (tf21nlp) $ pip install tensorflow_datasets
@@ -54,6 +54,22 @@ Following libraries are needed for this chapter:
 We will `tfds` in most of the chapters going forward.
 
 ## Chapter 3 Installation Instructions
+
+1. Install `matplotlib` via:
+
+  ```
+  (tf21nlp) $ conda install matplotlib
+  ```
+
+  At the time of writing, the version of matplotlib installed was 3.2.2.
+
+2. Install TensorFlow Addons package for Viterbi decoding
+
+  ```
+  (tf21nlp) $ pip install tensorflow_addons==0.9.1
+  ```
+
+  Note that this package is not available through conda.
 
 ## Chapter 4 Installation Instructions
 
