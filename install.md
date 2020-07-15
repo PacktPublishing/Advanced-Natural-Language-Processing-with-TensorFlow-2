@@ -73,7 +73,17 @@ We will `tfds` in most of the chapters going forward.
 
 ## Chapter 4 Installation Instructions
 
-TBD
+This chapter requires installation of `sklearn`:
+
+```
+(tf21nlp) $ conda install conda install scikit-learn
+```
+
+HuggingFace's Transformers library needs to be installed as well.
+
+```
+(tf21nlp) $ pip install transformers==3.0.2
+```
 
 ## Chapter 5 Installation Instructions
 
