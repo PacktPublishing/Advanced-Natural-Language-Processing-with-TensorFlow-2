@@ -76,7 +76,7 @@ We will `tfds` in most of the chapters going forward.
 This chapter requires installation of `sklearn`:
 
 ```
-(tf21nlp) $ conda install conda install scikit-learn
+(tf21nlp) $ conda install scikit-learn
 ```
 
 HuggingFace's Transformers library needs to be installed as well.
@@ -95,7 +95,13 @@ TBD
 
 ## Chapter 7 Installation Instructions
 
-TBD
+Visual QA
+
+Processing images need the Pillow library, which is the friendly version of Python Imaging Library. It can be installed like so:
+
+```
+(tf21nlp) conda install pillow==7.2.0
+```
 
 ## Chapter 8 Installation Instructions
 
