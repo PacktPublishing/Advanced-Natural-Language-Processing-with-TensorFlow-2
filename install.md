@@ -91,7 +91,7 @@ TBD
 
 ## Chapter 6 Installation Instructions
 
-TBD
+Chapters need to be re-numbered. this is place holder.
 
 ## Chapter 7 Installation Instructions
 
@@ -101,6 +101,12 @@ Processing images need the Pillow library, which is the friendly version of Pyth
 
 ```
 (tf21nlp) conda install pillow==7.2.0
+```
+
+TQDM is a nice utility to display progress bars while executing long loops:
+
+```
+(tf21nlp) $ conda install tqdm==4.47.0
 ```
 
 ## Chapter 8 Installation Instructions
