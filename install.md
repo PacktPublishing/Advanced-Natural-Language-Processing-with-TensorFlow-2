@@ -35,7 +35,7 @@ This installs Numpy and Pandas the libraries in newly created environment.
 (tf21nlp) $ pip install tensorflow==2.1
 ```
 
-**Step 4**: Install Jupyter notebook - feel free to install the latest versions:
+**Step 4**: Install Jupyter notebook - feel free to install the latest version:
 
 ```
 (tf21nlp) $ conda install Jupyter
@@ -58,10 +58,10 @@ We will `tfds` in most of the chapters going forward.
 1. Install `matplotlib` via:
 
   ```
-  (tf21nlp) $ conda install matplotlib
+  (tf21nlp) $ conda install matplotlib==3.1.3
   ```
 
-  At the time of writing, the version of matplotlib installed was 3.2.2.
+  A newer version may work as well.
 
 2. Install TensorFlow Addons package for Viterbi decoding
 
