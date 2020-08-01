@@ -76,7 +76,7 @@ We will `tfds` in most of the chapters going forward.
 This chapter requires installation of `sklearn`:
 
 ```
-(tf21nlp) $ conda install scikit-learn
+(tf21nlp) $ conda install scikit-learn==0.23.1
 ```
 
 HuggingFace's Transformers library needs to be installed as well.
@@ -111,7 +111,7 @@ TQDM is a nice utility to display progress bars while executing long loops:
 
 ## Chapter 8 Installation Instructions
 
-TBD
+TBD (snorkel)
 
 ## Chapter 9 Installation Instructions
 
