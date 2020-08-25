@@ -123,6 +123,14 @@ BeautifulSoup for parsing HTML tags out of the text.
 (tf21nlp) $ conda install beautifulsoup4
 ```
 
+There is an optional section that plots Word clouds. This needs the following package to be installed:
+
+```
+(tf21nlp) $ pip install wordcloud==1.8
+```
+
+Note that this chapter also uses NLTK, which was used in the first chapter.
+
 ## Chapter 9 Installation Instructions
 
 TBD
