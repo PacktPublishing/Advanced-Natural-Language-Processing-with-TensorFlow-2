@@ -114,13 +114,13 @@ TQDM is a nice utility to display progress bars while executing long loops:
 Snorkel needs to be installed. As of writing, the version of Snorkel installed was 0.9.5\. Note that this version of Snorkel uses older versions of Pandas and TensorBoard. You should be able to safely ignore these issues. If you continue to face conflicts in your environment, then I suggest creating a separate Snorkel specific environment. Run the labeling functions in that environment and store the outputs as a separate csv file. TensorFlow training can be run by switching back to the `tf21nlp` environment and loading the labelled data in.
 
 ```
-(tf21nlp) $ pip install snorkel
+(tf21nlp) $ pip install snorkel==0.9.5
 ```
 
 BeautifulSoup for parsing HTML tags out of the text.
 
 ```
-(tf21nlp) $ conda install beautifulsoup4
+(tf21nlp) $ conda install beautifulsoup4==4.9
 ```
 
 There is an optional section that plots Word clouds. This needs the following package to be installed:
@@ -133,4 +133,4 @@ Note that this chapter also uses NLTK, which was used in the first chapter.
 
 ## Chapter 9 Installation Instructions
 
-TBD
+None.
