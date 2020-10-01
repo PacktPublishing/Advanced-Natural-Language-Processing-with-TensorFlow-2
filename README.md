@@ -24,10 +24,12 @@ The book is organized in the following chapters (with links to code):
 3. [Named Entity Recognition (NER) with BiLSTMs, CRFs and Viterbi Decoding](chapter3-ner-with-lstm-crf)
 4. [Transfer Learning with BERT](chapter4-Xfer-learning-BERT)
 5. [Generating Text With RNNs and GPT-2](chapter5-nlg-with-transformer-gpt)
-6. [Text Summarization with seq2seq Attention and Trans-former Networks](chapter6-textsum-seq2seq-attention-transformer)
+6. [Text Summarization with seq2seq Attention and Transformer Networks](chapter6-textsum-seq2seq-attention-transformer)
 7. [Multi-modal Networks and Im-age Captioning with ResNets and Transformer](chapter-7-image-cap-multimodal-transformers)
 8. [Weakly Supervised Learning for Classification with Snorkel](chapter-8-weak-supervision-snorkel)
-9. Building Conversational AI Applications with Deep Learning
+9. [Building Conversational AI Applications with Deep Learning](chapter-9-conversational-agents)
+
+Seminal papers relevant to the chapter or referenced in the chapter can also be found in the appropriate chapter directory.
 
 ## Installation
 
