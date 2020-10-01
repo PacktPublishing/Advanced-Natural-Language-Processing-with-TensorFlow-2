@@ -59,7 +59,7 @@ def char_idx(c):
 data = []  # load into this list of lists 
 MAX_LEN = 75  #maximum length of a headline 
 
-with open("news-headlines.tsv", "r") as file:
+with open("./char-rnn/news-headlines.tsv", "r") as file:
     lines = csv.reader(file, delimiter='\t')
     for line in lines:
         hdln = line[0]
@@ -164,7 +164,7 @@ class LearningRateScheduler(tf.keras.callbacks.Callback):
 dt = datetime.datetime.today().strftime("%Y-%b-%d-%H-%M-%S")
 
 # Directory where the checkpoints will be saved
-checkpoint_dir = './training_checkpoints/'+dt
+checkpoint_dir = './training_checkpoints/'+ dt
 
 # Name of the checkpoint files
 checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
