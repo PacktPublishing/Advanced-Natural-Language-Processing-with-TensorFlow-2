@@ -29,7 +29,7 @@ $  conda install pandas==1.0.1 numpy==1.18.1
 
 This installs Numpy and Pandas the libraries in newly created environment.
 
-**Step 3**: Install TensorFlow 2.1 . To do this, we will need to use pip. As of writing, conda was still at 2.0\. TF has been moving quite fast. In general, conda distributions a little behind the latest versions.
+**Step 3**: Install TensorFlow 2.3 . To do this, we will need to use pip. As of writing, `conda` distribution of TensorFlow was still at 2.0\. TF has been moving quite fast. In general, conda distributions a little behind the latest versions.
 
 ```
 (tf23nlp) $ pip install tensorflow==2.3
