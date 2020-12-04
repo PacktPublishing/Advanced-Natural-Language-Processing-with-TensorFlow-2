@@ -33,6 +33,6 @@ Seminal papers relevant to the chapter or referenced in the chapter can also be 
 
 ## Installation
 
-[install.md](install,md) contains all the installation instructions for running the code. The book has been written and tested using Ubuntu 18.04 LTS, with a NVIDIA RTX 3070 GPU running Python 3.7 and TensorFlow 2.3, which was the latest version as of writing.
+[install.md](install.md) contains all the installation instructions for running the code. The book has been written and tested using Ubuntu 18.04 LTS, with a NVIDIA RTX 3070 GPU running Python 3.7 and TensorFlow 2.3, which was the latest version as of writing.
 
 Author: [Ashish Bansal](linkedin.com/in/bansalashish)
