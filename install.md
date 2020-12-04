@@ -15,10 +15,10 @@ Notes:
 **Step 1**: Create a new conda environment with Python 3.7.5
 
 ```
-$ conda create -n  python==3.7.5
+$ conda create -n tf23nlp python==3.7.5
 ```
 
-The environment is named `tf23nlp` but feel free to use your own name and make sure you use that in the following steps. I like to prefix my environment names with the version of TensorFlow being used and I suffix a 'g' if that environment has GPU version of the library. As you can probably infer, we are going to use TensorFlow 2.1
+The environment is named `tf23nlp` but feel free to use your own name and make sure you use that in the following steps. I like to prefix my environment names with the version of TensorFlow being used and I suffix a 'g' if that environment has GPU version of the library. As you can probably infer, we are going to use TensorFlow 2.3
 
 **Step 2**: Activate the environment and install the following packages
 
