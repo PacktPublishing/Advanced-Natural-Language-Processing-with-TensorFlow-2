@@ -31,10 +31,10 @@ import random
 # unzip annotations_trainval2014.zip
 
 # Step 3: Move all data into pretrain folder for processing
-# mkdir pretrain
-# mv train2014 pretrain/
-# mv val2014 pretrain/
-# mv annotations pretrain/
+# mkdir data
+# mv train2014 data/
+# mv val2014 data/
+# mv annotations data/
 
 # Step 4: Process JSON annotation files
 valcaptions = json.load(open(
