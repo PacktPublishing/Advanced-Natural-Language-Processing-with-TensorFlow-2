@@ -97,7 +97,11 @@ None required
 
 ## Chapter 6 Installation Instructions
 
-None required.
+A library that will be used to compute ROUGE scores needs to be installed.
+
+```
+(tf23nlp) $ pip install rouge_score
+```
 
 ## Chapter 7 Installation Instructions
 
