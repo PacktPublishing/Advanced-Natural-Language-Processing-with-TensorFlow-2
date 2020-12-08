@@ -54,7 +54,7 @@ No specific instructions as code for this chapter run on [Google Colab](colab.re
 `tfds` package needs to be installed:
 
 ```
-(tf23nlp) $ pip install tensorflow_datasets
+(tf23nlp) $ pip install tensorflow_datasets==3.2.1
 ```
 
 We will `tfds` in most of the chapters going forward.
