@@ -15,10 +15,10 @@ Notes:
 **Step 1**: Create a new conda environment with Python 3.7.5
 
 ```
-$ conda create -n  python==3.7.5
+$ conda create -n tf23nlp python==3.7.5
 ```
 
-The environment is named `tf23nlp` but feel free to use your own name and make sure you use that in the following steps. I like to prefix my environment names with the version of TensorFlow being used and I suffix a 'g' if that environment has GPU version of the library. As you can probably infer, we are going to use TensorFlow 2.1
+The environment is named `tf23nlp` but feel free to use your own name and make sure you use that in the following steps. I like to prefix my environment names with the version of TensorFlow being used and I suffix a 'g' if that environment has GPU version of the library. As you can probably infer, we are going to use TensorFlow 2.3
 
 **Step 2**: Activate the environment and install the following packages
 
@@ -29,7 +29,7 @@ $  conda install pandas==1.0.1 numpy==1.18.1
 
 This installs Numpy and Pandas the libraries in newly created environment.
 
-**Step 3**: Install TensorFlow 2.1 . To do this, we will need to use pip. As of writing, conda was still at 2.0\. TF has been moving quite fast. In general, conda distributions a little behind the latest versions.
+**Step 3**: Install TensorFlow 2.3 . To do this, we will need to use pip. As of writing, `conda` distribution of TensorFlow was still at 2.0\. TF has been moving quite fast. In general, conda distributions a little behind the latest versions.
 
 ```
 (tf23nlp) $ pip install tensorflow==2.3
@@ -54,7 +54,7 @@ No specific instructions as code for this chapter run on [Google Colab](colab.re
 `tfds` package needs to be installed:
 
 ```
-(tf23nlp) $ pip install tensorflow_datasets
+(tf23nlp) $ pip install tensorflow_datasets==3.2.1
 ```
 
 We will `tfds` in most of the chapters going forward.
@@ -97,7 +97,11 @@ None required
 
 ## Chapter 6 Installation Instructions
 
-None required.
+A library that will be used to compute ROUGE scores needs to be installed.
+
+```
+(tf23nlp) $ pip install rouge_score
+```
 
 ## Chapter 7 Installation Instructions
 
