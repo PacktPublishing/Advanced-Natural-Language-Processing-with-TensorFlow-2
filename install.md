@@ -47,7 +47,7 @@ Rest of the installation instructions are about specific libraries used in speci
 
 ## Chapter 1 Installation Instructions
 
-No specific instructions as code for this chapter run on [Google Colab](colab.research.google.com)
+No specific instructions as code for this chapter runs on [Google Colab](colab.research.google.com)
 
 ## Chapter 2 Installation Instructions
 
@@ -57,7 +57,7 @@ No specific instructions as code for this chapter run on [Google Colab](colab.re
 (tf23nlp) $ pip install tensorflow_datasets==3.2.1
 ```
 
-We will `tfds` in most of the chapters going forward.
+We will use `tfds` in most of the chapters going forward.
 
 ## Chapter 3 Installation Instructions
 
