@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Advanced Natural Language Processing with TensorFlow 2
 
 2019 has been a watershed moment for NLP with transformer and attention-based networks. This is as transformational for NLP as AlexNet was for computer vision in 2012\. Tremendous advances in Natural Language processing have been made in the last couple of years, and we are now moving from research labs into applications. These advances span the domains of Natural Language Understanding (NLU), Natural Language Generation (NLG) and Natural Language Interaction (NLI). With so much research in all of these domains, it can be a daunting task to understand the exciting developments in various domains inside NLP.
